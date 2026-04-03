@@ -305,5 +305,6 @@ main#mm > div{
     #plm{
         flex-direction: column;
         margin-top: unset;
+        align-items:center;
     }
 }
