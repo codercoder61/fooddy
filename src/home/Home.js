@@ -222,7 +222,7 @@ const handleClick = useCallback((e) => {
 
         </main>
         <main className='main'>
-            <h2>&copy; 2025 REFECTORY</h2>
+            
             {window.innerWidth<400? <div id="plm">
                 <span>Données personnelles </span>
                 <span> Politique sur les cookies </span>
@@ -238,7 +238,7 @@ const handleClick = useCallback((e) => {
                 <span> Mentions légales </span>|
                 <span> CSV</span>
             </div> }
-            
+            <h2>&copy; 2025 REFECTORY</h2>
         </main>
     </>
   )
