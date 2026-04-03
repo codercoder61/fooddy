@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#headerr{
+    display: flex;
+    align-items: center;
+    background-color: green;
+    position: relative;
+    margin-bottom: 0;
+}
+
+
+.main{
+    background-color: rgba(0, 128, 0,0.6);
+    opacity: 1;
+}
+#types{
+    display: flex;
+}
+
+.main h1{
+    color: green;
+    position: absolute;
+    font-size: 3.2em;
+    color: #fff;
+    text-align: center;
+    top: 150px;
+}
+#cll{
+    padding-top: 10px;
+}
+#main{
+    position: relative;
+    background-size: cover;
+    margin-bottom: unset;
+}
+#pp{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 128, 0,0.6);
+}
+#pp span{
+    font-size: 1.5em;
+}
+#cll span:nth-child(1){
+    border-radius: 25px;
+    width: 180px;
+    z-index: 5;
+    text-align: center;
+}
+#cll span:nth-child(2){
+    width: fit-content;
+}
+#cll span:nth-child(2){
+    border-radius: 25px;
+    padding-left: 50px;
+    padding-right: 20px;
+    position: relative;
+    right: 40px;
+}
+#cll span{
+    padding: 10px 0;
+}
+
+
+
+#root > .main:nth-child(3) > div{
+    width: unset;
+}
+
+main#mm > div{
+    width: fit-content;
+    width: 250px;
+    margin: 20px;
+    border-radius: 50%;
+    font-size: 0.8em;
+    height: 250px;
+    background-color: green;
+}
+
+.main> div>span:nth-child(1){
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+}
+#ph img{
+    width: 150px;
+    margin: 20px;
+    object-fit: cover;
+}
+
+.php img{
+    width: 360px;
+    object-fit: cover;
+    height: 200px;
+}
+
+.main.php > div{
+    margin: 20px;
+}
+
+.php > div > p{
+    font-size: unset;
+}
+
+.php > div{
+    background-color: transparent;
+    display: unset;
+    box-shadow: unset;
+}
+
+.main h2{
+    font-size: 1.6em;
+}
+
+.php{
+    flex-wrap: wrap;
+}
+
+#root > .main:nth-child(7) > div{
+    width: 25%;
+}
+
+#root > .main:nth-child(9) > div{
+    width: unset;
+}
+
+#root > .main:nth-child(10){
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.apps img{
+    height: 50px;
+    width: 200px;
+    margin: 5px;
+}
+
+#h2{
+    font-size: 2em;
+}
+
+.apps{
+    margin-top: unset;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#mmm,#mmm div{
+    background-color: green;
+    color: #fff;
+    box-shadow: unset;
+    justify-content: unset;
+}
+
+#mmm + .main{
+    background-color: green;
+    color: #fff;
+}
+
+  
+
+#root > .main:nth-child(12) > div {
+    width: 100%;
+    background-color: green;
+    box-shadow: unset;
+}   
+
+#root > .main:nth-child(12){
+    flex-direction: column;
+    align-items: center;
+}   
+
+#root > .main:nth-child(12) > div > span{
+    width: unset;
+    background-color: unset;
+    padding: 10px;
+}
+
+#plm{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+#ppl{
+    display:flex;
+    flex-direction:row;
+}
+#bars{
+    color:#fff !important;
+    display: none;
+}
+@media screen and (max-width:400px){
+    #types{
+        flex-direction: column;
+        justify-content: center;
+        background: orange;
+        position: absolute;
+        right: 20px;
+        top: 60px;
+        z-index: 9000;
+    }
+    #bars{
+        color:#fff;
+        display: block;
+        position: relative;
+        right: 30px;
+    }
+    headerr span{
+        margin-right: unset;
+    }
+    #headerr{
+        position: relative;
+    }
+    .main h1{
+        top:unset;
+    }
+
+    #cll span:nth-child(1) {
+    border-radius: unset;
+    width: unset;
+    z-index: unset;
+    text-align: unset;
+    margin-left: unset;
+    }
+    #cll{
+        padding: 10px;
+    text-align: center;
+    }
+    #cll span:nth-child(2) {
+    border-radius: unset;
+    padding-left: unset;
+    padding-right: unset;
+    position: unset;
+    right: unset;
+    }
+    #root > .main:nth-child(4){
+        text-align: center;
+    }
+    #mm{
+        flex-direction: column;
+        align-items: center;
+    }
+    #ph{
+        flex-direction: column;
+        align-items: center;
+    }
+    .php{
+        flex-direction: column;
+        align-items: center;
+    }
+    #root > .main:nth-child(7) > div{
+        width: unset;
+        padding: unset;
+    }
+    #root > .main:nth-child(7) > div img{
+        width: unset;
+    }
+
+    #root > .main:nth-child(8){
+        text-align: center;
+    }
+
+    #root > .main:nth-child(9) > div{
+        margin: unset;
+        padding: unset;
+    }
+    #root > .main:nth-child(9) > div > p{
+        padding-top: 0;
+    }
+    #root > .main:nth-child(10){
+        width: 90%;
+    }
+    .apps{
+        flex-direction: column !important;
+    }
+
+    #root > .main:nth-child(10){
+        margin-top: 20px;
+    }
+    #mmm{
+        flex-direction: column;
+    }
+    #mmm div{
+        align-items: flex-start;
+        margin-top: unset;
+    }
+    #mmm > div:nth-child(4){
+        text-align: unset;
+    }
+    #plm{
+        flex-direction: column;
+        margin-top: unset;
+    }
+}
