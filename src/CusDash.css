@@ -123,6 +123,15 @@
     z-index: 0;
     position: relative;
 }
+
+.restaurants{
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+    z-index: 0;
+    position: relative;
+}
 #meals{
     display: flex;
     margin-top: 50px;
