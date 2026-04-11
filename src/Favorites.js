@@ -359,7 +359,6 @@ const addMessage =async ()=>{
             {toggle3 && <div ref={cart} id='ftg'>
                 <div style={{position:'relative'}}>
                   <div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
-                  <h2>Order Menu</h2>
                 <i onClick={()=>setToggle3(false)} style={{position:'absolute',right:'0px',top:'10px'}} className="fa-solid fa-xmark"></i>
                 
               </div>
