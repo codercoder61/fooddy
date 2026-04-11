@@ -485,7 +485,7 @@ style={{ border: 'none', outline: 'none', height: '20px', width: '60px', }}
        
         <div style={{marginTop:'70px',padding:'40px'}}>
                 <h1 style={{fontSize:'1.3em'}}>Your Favorites 🤩</h1>
-                <div id="restaurants">
+                <div className="restaurants">
               {restaurants && restaurants.map((elm,index)=>(
                 <div key={index} style={{margin: '20px',width:'400px',aIndex:'10',position:'relative'}}>
                   <img alt="apap" width='100' height='100' style={{left:'50%',transform:'translate(-50%,-40%)',position:'absolute',objectFit:'cover',borderRadius:'50%'}} src={elm.logo!==null?`https://pneuexpress.online/foody/${elm.logo}`:'https://21985162c3f6de69b3a2fa38c4458a89.cdn.bubble.io/cdn-cgi/image/w=64,h=,f=auto,dpr=1,fit=contain/f1643645120337x435152378012765760/chefauchef-01%2B%281%29.png'}/>
