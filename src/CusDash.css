@@ -116,7 +116,7 @@
 }
 
 #restaurants{
-    display: inline-block;
+    display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
     justify-content: center;
